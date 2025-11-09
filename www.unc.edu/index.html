@@ -45,9 +45,41 @@ fbq('init', '553655075018580', {}, {
 body {
 	background-color:#767676;
 }
-header#header .header, #unc-experience-header>.content {
+header#header .header {
     background-color:#4b9cd3;
 }
+
+#unc-experience-header { position: relative; width: 100%; }
+#unc-experience-header > .content {
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    left: 0; right: 0;
+}
+#unc-experience-header > .content,
+#unc-experience-header > .content a,
+#unc-experience-header > .content h2,
+#unc-experience-header > .content p { color: #fff; }
+
+/* Top header nav styles */
+#top-header-nav {
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    padding: 15px 20px;
+    position: relative; 
+    z-index: 1000;
+}
+#top-header-nav nav ul { list-style: none; display: flex; gap: 30px; margin: 0; padding: 0; }
+#top-header-nav nav ul li a { color: #fff; text-decoration: none; font-size: 18px; }
+
+/* Hide specified items without altering DOM (safe fallback) */
+#menu-story-experience-menu #menu-item-51774,
+#menu-story-experience-menu #menu-item-51775,
+#menu-story-experience-menu #menu-item-51776 { display: none !important; }
+
+#menu-item-237159, /* Discover */
+#menu-item-171,    /* Navigate */
+#menu-item-56035   /* Search */
+{ display: none !important; }
 
 header#header nav#navigation-main-menu ul.menu>li a, header#header nav#navigation-main-menu ul.menu>li button,#unc-experience-header>.content a.begin {
     font-size:19px;
