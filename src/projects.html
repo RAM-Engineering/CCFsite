@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Carolina Chip Fab</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a class="brand" href="./index.html#home" aria-label="Carolina Chip Fab home">
+        <img class="brand-logo-small" src="./logo/small_logo.png" alt="Carolina Chip Fab icon">
+        <span class="brand-text">Carolina Chip Fab</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./index.html#home">Home</a>
+        <a href="./index.html#about">About</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./index.html#contact">Contact</a>
+        <a class="btn btn-outline join-link" href="./index.html#join">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="page-hero" aria-label="Projects hero">
+      <div class="section-inner">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h1>Designing, prototyping, and fabricating the next generation of microdevices.</h1>
+          <p>We’re building end-to-end pipelines—design to fabrication—for every branch. We move fast with prototypes, partner with labs, and co-create with collaborators who want to shape what’s next.</p>
+          <div class="pill-group">
+            <span class="pill">Microfluidics</span>
+            <span class="pill">Microelectronics</span>
+            <span class="pill">Photonics</span>
+            <span class="pill">Neuromorphics</span>
+            <span class="pill">Quantum Chips</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <span class="tag">Get involved</span>
+          </div>
+          <p>Have expertise, facilities, or interest in co-developing these systems? We’re seeking collaborators across design, fabrication, and validation.</p>
+          <a class="btn btn-primary" href="https://forms.gle/fGZH6nTLsWvWYVbb8" target="_blank" rel="noopener">Share your interest</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Branch details">
+      <div class="section-inner project-sections">
+        <article id="microfluidics" class="card project-card">
+          <div class="card-top">
+            <span class="tag tag-large">Microfluidics</span>
+          </div>
+          <h3>Rapid pipeline-building through fast prototypes</h3>
+          <p>Developing a full design + fabrication pipeline by shipping prototypes quickly and partnering with campus labs and orgs to validate and iterate.</p>
+          <div class="project-meta">
+            <span class="tag">Pipeline</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Lithography</span>
+            <span class="tag">Plasma bonding</span>
+          </div>
+          <button class="btn btn-ghost accordion-trigger" data-target="acc-microfluidics" aria-expanded="false" aria-controls="acc-microfluidics">
+            What is Microfluidics?
+          </button>
+          <div id="acc-microfluidics" class="accordion-panel" hidden>
+            <p>Microfluidics manipulates tiny volumes of fluids through micro-scale channels to build lab-on-chip systems, diagnostics, and rapid experiments.</p>
+            <a class="accordion-link" href="https://en.wikipedia.org/wiki/Microfluidics" target="_blank" rel="noopener">Learn more</a>
+          </div>
+        </article>
+
+        <article id="microelectronics" class="card project-card">
+          <div class="card-top">
+            <span class="tag tag-large">Microelectronics</span>
+          </div>
+          <h3>Design + fabrication pipelines for FPGAs and ASICs</h3>
+          <p>Building both a full design-to-fab pipeline for microelectronics and a design team delivering FPGA and ASIC projects. We’re developing flows with industry tools and partners to prototype fast, validate, and manufacture.</p>
+          <div class="project-meta">
+            <span class="tag">FPGA</span>
+            <span class="tag">ASIC</span>
+            <span class="tag">Design → Fab</span>
+          </div>
+          <button class="btn btn-ghost accordion-trigger" data-target="acc-microelectronics" aria-expanded="false" aria-controls="acc-microelectronics">
+            What is Microelectronics?
+          </button>
+          <div id="acc-microelectronics" class="accordion-panel" hidden>
+            <p>Microelectronics covers the design and fabrication of semiconductor devices and integrated circuits that power modern electronics.</p>
+            <a class="accordion-link" href="https://en.wikipedia.org/wiki/Microelectronics" target="_blank" rel="noopener">Learn more</a>
+          </div>
+        </article>
+
+        <article id="neuromorphics" class="card project-card">
+          <div class="card-top">
+            <span class="tag tag-large">Neuromorphics</span>
+          </div>
+          <h3>Design-to-fab for neuromorphic systems</h3>
+          <p>Standing up a full design → fabrication pipeline while recreating and extending current literature. We’ll partner with labs to co-build prototypes, projects, and research around neuromorphic computing.</p>
+          <div class="project-meta">
+            <span class="tag">Exploration</span>
+            <span class="tag">Pipeline-first</span>
+          </div>
+          <button class="btn btn-ghost accordion-trigger" data-target="acc-neuromorphics" aria-expanded="false" aria-controls="acc-neuromorphics">
+            What is Neuromorphic Computing?
+          </button>
+          <div id="acc-neuromorphics" class="accordion-panel" hidden>
+            <p>Neuromorphic computing builds chips and systems inspired by brains—spiking neurons and synapses—to enable efficient, event-driven computation.</p>
+            <a class="accordion-link" href="https://en.wikipedia.org/wiki/Neuromorphic_computing" target="_blank" rel="noopener">Learn more</a>
+          </div>
+        </article>
+
+        <article id="photonics" class="card project-card">
+          <div class="card-top">
+            <span class="tag tag-large">Photonics</span>
+          </div>
+          <h3>Heavy R&D ahead—help shape the roadmap</h3>
+          <p>We’re working to develop photonics capabilities but have significant R&D to do. We’re looking for those interested in planning and co-developing the future project.</p>
+          <div class="project-meta">
+            <span class="tag">R&D</span>
+            <span class="tag">Co-planning</span>
+          </div>
+          <button class="btn btn-ghost accordion-trigger" data-target="acc-photonics" aria-expanded="false" aria-controls="acc-photonics">
+            What are Photonic Integrated Circuits?
+          </button>
+          <div id="acc-photonics" class="accordion-panel" hidden>
+            <p>Photonic integrated circuits use light (photons) instead of electrons to route, process, and sense signals on-chip for communications and sensing.</p>
+            <a class="accordion-link" href="https://en.wikipedia.org/wiki/Photonic_integrated_circuit" target="_blank" rel="noopener">Learn more</a>
+          </div>
+        </article>
+
+        <article id="quantum" class="card project-card">
+          <div class="card-top">
+            <span class="tag tag-large">Quantum Chips</span>
+          </div>
+          <h3>Discovery mode—seeking partners to define next steps</h3>
+          <p>Building toward quantum chip capabilities with heavy research ahead. We want collaborators to help plan and prototype the path forward.</p>
+          <div class="project-meta">
+            <span class="tag">R&D</span>
+            <span class="tag">Partnerships</span>
+          </div>
+          <button class="btn btn-ghost accordion-trigger" data-target="acc-quantum" aria-expanded="false" aria-controls="acc-quantum">
+            What are Quantum Chips?
+          </button>
+          <div id="acc-quantum" class="accordion-panel" hidden>
+            <p>Quantum chips power QPUs (quantum processing units) that run quantum algorithms using qubits. They sit at the heart of quantum computers.</p>
+            <a class="accordion-link" href="https://www.ibm.com/think/topics/qpu" target="_blank" rel="noopener">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" aria-label="Call to action">
+      <div class="section-inner">
+        <div class="cta-banner">
+          <p class="eyebrow">Collaborate with us</p>
+          <h2>Ready to co-build the future of microdevices?</h2>
+          <p>Tell us your interests—design, fabrication, research, facilities, or mentorship. We’ll follow up with opportunities to plug in.</p>
+          <a class="btn btn-primary" href="https://forms.gle/fGZH6nTLsWvWYVbb8" target="_blank" rel="noopener">Join the effort</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <strong>Carolina Chip Fab</strong><br>
+        Accelerating innovation in microelectronics.
+      </div>
+      <div class="footer-col">
+        <div>Contact</div>
+        <div><a href="mailto:ramroboticsunc@gmail.com">ramroboticsunc@gmail.com</a></div>
+      </div>
+      <div class="footer-col">
+        <div>&copy; <span id="year"></span> Carolina Chip Fab. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
